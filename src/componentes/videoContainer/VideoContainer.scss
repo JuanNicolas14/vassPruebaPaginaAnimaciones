@@ -1,0 +1,26 @@
+// VideoContainer.scss
+.video-container {
+  display: flex;
+
+  .video {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: gray;
+    }
+  }
+
+  .video-display {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

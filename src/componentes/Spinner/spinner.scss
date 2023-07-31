@@ -1,0 +1,57 @@
+@import '../../App.scss';
+
+
+.papa {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    .circle {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background: #{$negro};
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .logo {
+            position: absolute;
+            width:150px;
+            left: 45%;
+            height: 150px;
+            border-radius: 50%;
+            font-size: 5rem;
+        }
+    
+        @keyframes rotateText {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+    
+        .text {
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            animation: rotateText 30s linear infinite;
+    
+            span {
+                color: white;
+                position: absolute;
+                top: -9.8rem;
+                left: 2.5rem;
+                font-size: 1rem;
+                transform-origin: 0 100px;
+            }
+    
+        }
+    }
+
+} 
