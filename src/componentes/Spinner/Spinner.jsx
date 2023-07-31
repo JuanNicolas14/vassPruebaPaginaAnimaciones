@@ -22,7 +22,7 @@ const Spinner = () => {
                 
             </div>
             <div className='text'>
-                <p>WHAT WE DO - WHAT WE DO - WHAT WE DO -</p>
+                <p>WHAT WE DO - WHAT WE DO - WHAT WE DO - WHAT WE DO -</p>
             </div>
         </div>
     </div>
